@@ -15,4 +15,8 @@ Instruksi `delay(timeDelay)` digunakan untuk memberikan **waktu tunggu** pada ja
 
 Program dimodifikasi agar pola LED tidak langsung kembali ke kondisi awal setelah berkedip cepat. Sebaliknya, LED akan berubah secara bertahap dari **kedipan cepat menjadi lebih lambat**, kemudian berhenti sejenak sebelum siklus diulang kembali.
 Berikut merupakan kode program yang digunakan pada percobaan ini:
-![Kode Program LED]([Pertemuan 1/Source code Percobaan_1A/kode_led.png](https://github.com/BillyUdin/Praktikum-Sistem-Mikrokontroler/blob/main/Pertemuan%201/source%20code%20percobaan_1A/Kode_LED.png))
+![alt text](https://github.com/BillyUdin/Praktikum-Sistem-Mikrokontroler/blob/main/Pertemuan%201/source%20code%20percobaan_1A/Kode_LED.png?raw=true)
+
+## 1.6 Pertanyaan Praktikum
+
+### Schematic 5 LED Running
