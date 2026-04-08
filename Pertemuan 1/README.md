@@ -14,3 +14,5 @@ Instruksi `delay(timeDelay)` digunakan untuk memberikan **waktu tunggu** pada ja
 ### 4. Modifikasi Program (Cepat → Sedang → Mati)
 
 Program dimodifikasi agar pola LED tidak langsung kembali ke kondisi awal setelah berkedip cepat. Sebaliknya, LED akan berubah secara bertahap dari **kedipan cepat menjadi lebih lambat**, kemudian berhenti sejenak sebelum siklus diulang kembali.
+Berikut merupakan kode program yang digunakan pada percobaan ini:
+![Kode Program LED](Pertemuan 1/Source code Percobaan_1A/kode_led.png)
