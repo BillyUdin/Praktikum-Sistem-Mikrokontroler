@@ -20,3 +20,13 @@ Berikut merupakan kode program yang digunakan pada percobaan ini:
 ## 1.6 Pertanyaan Praktikum
 
 ### Schematic 5 LED Running
+![alt text](https://github.com/BillyUdin/Praktikum-Sistem-Mikrokontroler/blob/main/Pertemuan%201/source%20code%20percobaan_1A/skematik%20LED%20berjalan.png?raw=true)
+### Bagaimana program menghasilkan efek LED bergerak dari kiri ke kanan?
+
+Pergerakan LED dari sisi kiri menuju kanan dibuat menggunakan sebuah perulangan `for` yang dimulai dari pin bernilai kecil menuju pin yang lebih besar. Nilai pin dimulai dari **2** kemudian bertambah sampai **7** (`ledPin++`). Pada setiap iterasi, program menyalakan satu LED menggunakan `digitalWrite(ledPin, HIGH)`, kemudian menunggu beberapa saat sebelum LED dimatikan kembali. Karena proses ini terjadi secara berurutan dan hanya satu LED yang aktif dalam satu waktu, cahaya yang terlihat akan tampak berpindah dari LED pertama menuju LED terakhir.
+
+### Bagaimana LED bergerak kembali dari kanan ke kiri?
+
+Gerakan sebaliknya dibuat dengan menggunakan perulangan `for` yang berjalan secara menurun. Nilai pin dimulai dari **7** kemudian berkurang hingga mencapai **2** (`ledPin--`). Dengan urutan tersebut, LED yang menyala akan berpindah dari sisi kanan menuju sisi kiri. Kombinasi kedua perulangan ini menghasilkan efek visual LED yang bergerak bolak-balik menyerupai pola lampu pada kendaraan atau efek Knight Rider.
+
+### Program LED menyala tiga di kiri dan tiga di kanan secara bergantian
